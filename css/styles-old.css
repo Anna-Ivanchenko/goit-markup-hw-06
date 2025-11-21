@@ -43,10 +43,7 @@
     overflow: hidden;
 }
 
-.overlay {  
-    
-    visibility: hidden;
-        pointer-events: none;
+.overlay {     
     position: absolute;
     top: 0;
     font-size: 16px;
