@@ -301,6 +301,10 @@ button {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-link.accent {
+    color: #404bbf;
+}
+
 .mobile-nav-list .mobile-link:hover,
 .mobile-nav-list .mobile-link:focus {
     color: #404bbf;
@@ -311,6 +315,7 @@ button {
 }
 
 .mobile-contact-list {
+    font-style: normal;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -325,6 +330,10 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-contact-link.accent {
+    color: #404bbf;
 }
 
 .mobile-contact-list .mobile-contact-link:hover,
@@ -1328,7 +1337,6 @@ input:checked+label>span {
 
     .modal-close:hover,
     .modal-close:focus {
-
         background-color: #404bbf;
         border: none;
     }
@@ -1344,6 +1352,7 @@ input:checked+label>span {
 
     .modal-form-input:focus+svg {
         fill: #4d5ae5;
+    }    
 
     .modal-submit-button:hover,
     .modal-submit-button:focus {
